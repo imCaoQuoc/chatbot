@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "Quy trình nào được áp dụng trong trường hợp xác định lỗi trong sản phẩm?",
+        "Answer": "Quy trình kiểm tra và xử lý lỗi",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình nào được sử dụng để đảm bảo chất lượng sản phẩm?",
+        "Answer": "Quy trình kiểm tra chất lượng",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình nào được thực hiện để đảm bảo tuân thủ quy định pháp lý?",
+        "Answer": "Quy trình kiểm tra tuân thủ pháp luật",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm thế nào để hủy bỏ một quy trình không còn cần thiết?",
+        "Answer": "Thực hiện quy trình hủy bỏ",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình nào được sử dụng để đào tạo nhân viên mới?",
+        "Answer": "Quy trình đào tạo nhân viên",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm thế nào để cập nhật một quy trình theo yêu cầu mới?",
+        "Answer": "Thực hiện quy trình cập nhật",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình nào được áp dụng khi có yêu cầu thay đổi sản phẩm?",
+        "Answer": "Quy trình kiểm tra yêu cầu thay đổi",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm thế nào để đánh giá hiệu suất của một quy trình?",
+        "Answer": "Thực hiện đánh giá hiệu suất quy trình",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình nào được thực hiện để giám sát hoạt động hàng ngày của công ty?",
+        "Answer": "Quy trình giám sát hoạt động",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm thế nào để xác định rủi ro trong quy trình?",
+        "Answer": "Thực hiện đánh giá rủi ro",
+        "Filename": "QT-06_Thay_doi_dia_diem_khac_xa.pdf",
+        "Verify": true
+    }
+]

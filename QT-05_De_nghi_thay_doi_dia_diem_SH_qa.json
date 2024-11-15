@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "Quy trình nào cần phải tuân thủ khi thực hiện công việc này?",
+        "Answer": "Quy trình ABC",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Có bao nhiêu bước trong quy trình thực hiện công việc này?",
+        "Answer": "Có 5 bước",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình này được áp dụng trong bao lâu một lần?",
+        "Answer": "Mỗi tháng một lần",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Ai có trách nhiệm chịu trách nhiệm cho việc thực hiện quy trình này?",
+        "Answer": "Phòng ban XYZ",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm thế nào để đảm bảo rằng quy trình này được thực hiện đúng cách?",
+        "Answer": "Cần phải đảm bảo tuân thủ đúng các bước trong quy trình",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình này có thể được cải tiến như thế nào?",
+        "Answer": "Có thể cải tiến bằng cách rút ngắn thời gian thực hiện hoặc tối ưu hóa quy trình",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Nếu có vấn đề xảy ra trong quy trình, làm thế nào để khắc phục?",
+        "Answer": "Cần phải thông báo ngay cho người có trách nhiệm và tìm giải pháp sửa đổi quy trình",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình này có thể ảnh hưởng đến công việc của ai khác không?",
+        "Answer": "Có thể ảnh hưởng đến công việc của phòng ban khác",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Có thể áp dụng quy trình này vào các dự án khác không?",
+        "Answer": "Có thể áp dụng nhưng cần phải điều chỉnh tùy theo yêu cầu cụ thể của dự án",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Làm sao để đánh giá hiệu quả của quy trình này?",
+        "Answer": "Có thể đánh giá bằng cách so sánh kết quả trước và sau khi áp dụng quy trình",
+        "Filename": "QT-05_De_nghi_thay_doi_dia_diem_SH.pdf",
+        "Verify": true
+    }
+]

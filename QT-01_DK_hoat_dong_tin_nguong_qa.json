@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "Điều kiện thực hiện thủ tục hành chính để đăng ký hoạt động tín ngưỡng là gì?",
+        "Answer": "Người đại diện hoặc ban quản lý cơ sở tín ngưỡng cần gửi văn bản đăng ký hoạt động tín ngưỡng hàng năm chậm nhất là 30 ngày trước ngày cơ sở bắt đầu hoạt động.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Thành phần hồ sơ cần nộp để đăng ký hoạt động tín ngưỡng gồm những gì?",
+        "Answer": "Thành phần hồ sơ gồm văn bản đăng ký hoạt động tín ngưỡng (mẫu B1, Phụ lục Nghị định số 162/2017/NĐ-CP ngày 30/12/2017).",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Số lượng hồ sơ cần nộp là bao nhiêu?",
+        "Answer": "Cần nộp 01 bộ hồ sơ.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Thời gian xử lý hồ sơ đăng ký hoạt động tín ngưỡng là bao lâu?",
+        "Answer": "Thời gian xử lý là 15 ngày kể từ ngày nhận được hồ sơ hợp lệ.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Nơi tiếp nhận và trả kết quả đăng ký hoạt động tín ngưỡng ở đâu?",
+        "Answer": "Nơi tiếp nhận và trả kết quả là Bộ phận Tiếp nhận và Trả kết quả giải quyết TTHC.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Lệ phí đăng ký hoạt động tín ngưỡng là bao nhiêu?",
+        "Answer": "Không có lệ phí cho việc đăng ký hoạt động tín ngưỡng.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Quy trình xử lý công việc đăng ký hoạt động tín ngưỡng gồm những bước nào?",
+        "Answer": "Quy trình gồm các bước: chuẩn bị hồ sơ, công chức thụ lý hồ sơ xem xét, lãnh đạo phường phê duyệt, chuyển hồ sơ cho văn thư, trả kết quả cho tổ chức.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Nếu hồ sơ bị chậm muộn thì xử lý thế nào?",
+        "Answer": "Cán bộ thụ lý báo cáo lãnh đạo và phải có phiếu xin lỗi theo mẫu số 04 (Thông tư số 01/2018/TT-VPCP) trả cho tổ chức, cá nhân.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Cơ sở pháp lý cho quy trình đăng ký hoạt động tín ngưỡng là gì?",
+        "Answer": "Cơ sở pháp lý bao gồm Luật tín ngưỡng, tôn giáo, Nghị định số 93/2023/NĐ-CP, Nghị định số 61/2018/NĐ-CP, Thông tư số 01/2018/TT-VPCP, và một số quyết định khác.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    },
+    {
+        "Question": "Biểu mẫu nào cần sử dụng để đăng ký hoạt động tín ngưỡng?",
+        "Answer": "Biểu mẫu cần sử dụng là mẫu B1 cho đăng ký hoạt động tín ngưỡng hàng năm hoặc bổ sung.",
+        "Filename": "QT-01_DK_hoat_dong_tin_nguong.pdf",
+        "Verify": true
+    }
+]

@@ -1,0 +1,6 @@
+openai
+pydantic
+llama-index
+llama-parse
+fastapi
+uvicorn
