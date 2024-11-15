@@ -4,3 +4,4 @@ llama-index
 llama-parse
 fastapi
 uvicorn
+python-multipart
