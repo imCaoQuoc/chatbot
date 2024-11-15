@@ -62,7 +62,7 @@ def generate_qa_pairs(content: str, filename: str, client) -> List[QAResponse]:
                     "content": prompt,
                 }
             ],
-            model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             temperature=0.7,
         )
         if response.choices[0].message.content.startswith("```json") and response.choices[0].message.content.endswith("```"):
