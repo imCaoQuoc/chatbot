@@ -4,7 +4,7 @@ import nest_asyncio
 from openai import OpenAI
 from pydantic import BaseModel
 from llama_parse import LlamaParse
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, HTTPException
 from llama_index.core import SimpleDirectoryReader
 from typing import List
 
@@ -12,7 +12,6 @@ from typing import List
 
 # Setup fastAPI and client
 app = FastAPI()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Model for response
 class QAResponse(BaseModel):
@@ -41,7 +40,8 @@ def extract_text_from_pdf(file_path: str) -> str:
     return contents
 
 # Function to generate QA pairs using OpenAI API
-def generate_qa_pairs(content: str, filename: str) -> List[QAResponse]:
+def generate_qa_pairs(content: str, filename: str, client) -> List[QAResponse]:
+    client = client
     prompt = f"""
     Trong ngữ cảnh người dùng sẽ hỏi các thông tin liên quan tới quy trình trong nội dung, hãy tạo ra ít nhất 10 cặp Question-Answer là những câu hỏi có khả năng cao bị hỏi và câu trả lời tương ứng.
     Hãy bỏ qua các mục tài liệu viện dẫn và định nghĩa/tóm tắt. Tập trung tạo Question-Answer cho mục "5. nội dung quy trình" trở đi.
@@ -81,8 +81,13 @@ def generate_qa_pairs(content: str, filename: str) -> List[QAResponse]:
         print(f"Error generating QA pairs: {e}")
         return []
 
-@app.post("/generate-qa/")
-async def create_qa(file: UploadFile = File(...)):
+@app.api_route("/generate-qa/", methods=["POST", "GET"])
+async def create_qa(file: UploadFile = File(...), user_api_key: str = None):
+    if not user_api_key:
+        raise HTTPException(status_code=400, detail="API key is required.")
+
+    # Sử dụng API key của người dùng
+    client = OpenAI(api_key=user_api_key)
     try:
         # Save uploaded file locally
         file_path = f"temp_{file.filename}"
@@ -93,7 +98,7 @@ async def create_qa(file: UploadFile = File(...)):
         content = extract_text_from_pdf(file_path)
         
         # Generate QA pairs
-        qa_pairs = generate_qa_pairs(content, file.filename)
+        qa_pairs = generate_qa_pairs(content, file.filename, client)
         
         # Prepare JSON response
         result = [qa.dict() for qa in qa_pairs]
