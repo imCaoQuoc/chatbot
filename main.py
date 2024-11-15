@@ -4,7 +4,7 @@ import nest_asyncio
 from openai import OpenAI
 from pydantic import BaseModel
 from llama_parse import LlamaParse
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile, HTTPException, Request
 from llama_index.core import SimpleDirectoryReader
 from typing import List
 
@@ -82,12 +82,14 @@ def generate_qa_pairs(content: str, filename: str, client) -> List[QAResponse]:
         return []
 
 @app.api_route("/generate-qa/", methods=["POST", "GET"])
-async def create_qa(file: UploadFile = File(...), user_api_key: str = None):
-    if not user_api_key:
+async def create_qa(file: UploadFile = File(...), request: Request = None):
+    # Lấy user_api_key từ headers
+    openai_api_key = request.headers.get('user_api_key')
+    if not openai_api_key:
         raise HTTPException(status_code=400, detail="API key is required.")
 
     # Sử dụng API key của người dùng
-    client = OpenAI(api_key=user_api_key)
+    client = OpenAI(api_key=openai_api_key)
     try:
         # Save uploaded file locally
         file_path = f"temp_{file.filename}"
