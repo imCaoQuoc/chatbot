@@ -43,7 +43,7 @@ def extract_text_from_pdf(file_path: str) -> str:
 def generate_qa_pairs(content: str, filename: str, client) -> List[QAResponse]:
     client = client
     prompt = f"""
-    Trong ngữ cảnh người dùng sẽ hỏi các thông tin liên quan tới quy trình trong nội dung, hãy tạo ra ít nhất 10 cặp Question-Answer là những câu hỏi có khả năng cao bị hỏi và câu trả lời tương ứng.
+    Trong ngữ cảnh người dùng sẽ hỏi các thông tin liên quan tới quy trình trong nội dung, hãy tạo ra ít nhất 10 cặp (tầm 12-13) Question-Answer là những câu hỏi có khả năng cao bị hỏi và câu trả lời tương ứng.
     Hãy bỏ qua các mục tài liệu viện dẫn và định nghĩa/tóm tắt. Tập trung tạo Question-Answer cho mục "5. nội dung quy trình" trở đi.
     Nội dung:
     {content}
@@ -88,7 +88,7 @@ async def create_qa(file: UploadFile = File(...), request: Request = None):
     if not openai_api_key:
         raise HTTPException(status_code=400, detail="API key is required.")
 
-    # Sử dụng API key của người dùng
+    # User's API key
     client = OpenAI(api_key=openai_api_key)
     try:
         # Save uploaded file locally
