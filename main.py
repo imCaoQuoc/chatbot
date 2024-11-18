@@ -8,7 +8,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException, Request
 from llama_index.core import SimpleDirectoryReader
 from typing import List
 
-# nest_asyncio.apply()
+nest_asyncio.apply()
 
 # Setup fastAPI and client
 app = FastAPI()
